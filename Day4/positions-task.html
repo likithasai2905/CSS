@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            top:0;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .navbar {
+             width: 100%;
+             padding: 15px 30px;
+             box-sizing: border-box;
+             border-bottom: 1px solid #ddd;
+             position:fixed;
+             top:0;
+             background-color: white;
+             z-index:90;
+        }
+        .navbar .logo {
+             display: inline-block;
+             font-weight: bold;
+             font-size: 18px;
+             letter-spacing: 2px;
+        }
+        .navbar .menu {
+            float: right; 
+        }
+
+        .navbar .menu a {
+             display: inline-block;
+             margin-left: 30px;
+             text-decoration: none;
+             color: black;
+             letter-spacing: 2px;
+        }
+
+        .navbar .menu a:hover {
+             text-decoration: underline;
+        }
+        .parent{
+            width:100%;
+            margin:3%;
+        }
+        .child{
+            display:inline-block;
+            width:15%;
+            margin:30px;
+        }
+        .child img{
+            width:100%;
+        }
+        .parent1{
+            width:100%;
+            margin:3%;
+        }
+        .child1{
+            display:inline-block;
+            width:15%;
+            margin:30px;
+        }
+        .child1 img{
+            width:100%;
+        }
+        .about{
+            width:100%;
+            margin:3%;
+        }
+        .section{
+            display: inline-block;
+            width:15%;
+            margin:30px;
+        }
+        .forms{
+            width:100%;
+        }
+        .forms input{
+            width:100%;
+            margin-bottom:1% ;
+            padding: 0.5%;
+            font-size: large;
+        }
+
+
+    </style>
+</head>
+<body>
+     <header>
+        <div class="navbar">
+            <div class="logo">BR Architects</div>
+            <div class="menu">
+            <a href="#">Projects</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            </div>
+        </div>
+    </header>
+    <div>
+        <img src="https://www.w3schools.com/w3images/architect.jpg" alt="">
+        <p>BR Architects</p>
+    </div>
+    <h3>PROJECTS</h3>
+    <div class="parent">
+        <div class="child">
+            <img src="https://www.w3schools.com/w3images/house5.jpg" alt="">
+            <p>Summer House</p>
+        </div>
+        <div class="child">
+            <img src="https://www.w3schools.com/w3images/house2.jpg" alt="">
+            <p>Brick House</p>
+        </div>
+        <div class="child">
+            <img src="https://www.w3schools.com/w3images/house3.jpg" alt="">
+            <p>Renovated</p>
+        </div>
+        <div class="child">
+            <img src="https://www.w3schools.com/w3images/house4.jpg" alt="">
+            <p>Barn House</p>
+        </div>
+    </div>
+    <div class="parent1">
+        <div class="child1">
+            <img src="https://www.w3schools.com/w3images/house2.jpg" alt="">
+            <p>Summer House</p>
+        </div>
+        <div class="child1">
+            <img src="https://www.w3schools.com/w3images/house5.jpg" alt="">
+            <p>Brick House</p>
+        </div>
+        <div class="child1">
+            <img src="https://www.w3schools.com/w3images/house4.jpg" alt="">
+            <p>Renovated</p>
+        </div>
+        <div class="child1">
+            <img src="https://www.w3schools.com/w3images/house3.jpg" alt="">
+            <p>Barn House</p>
+        </div>
+    </div>
+    <div>
+        <h3>ABOUT</h3>
+        <hr>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae eum, veniam suscipit atque asperiores eaque expedita voluptatum voluptatibus magni porro. Dolorem, nostrum exercitationem quidem quae harum ipsa id consequatur nobis aperiam velit, quisquam dolore similique nisi quibusdam ratione nihil libero modi necessitatibus dolor maiores omnis autem laudantium deserunt! Debitis, inventore.</p>
+        <div class="about">
+            <div>
+                <img src="https://www.w3schools.com/w3images/team2.jpg" alt="" class="section">
+                <p><b>John Doe</b></p>
+                <h2>CEO & Founder</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde odit earum, ipsum sit totam rerum accusantium enim officiis autem maxime!</p>
+            </div>
+            <div>
+                <img src="https://www.w3schools.com/w3images/team1.jpg" alt="" class="section">
+                <p><b>Jane Doe</b></p>
+                <h2>Architect</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque quaerat perferendis fugit necessitatibus provident sunt sequi culpa reprehenderit praesentium adipisci!</p>
+            </div>
+            <div>
+                <img src="https://www.w3schools.com/w3images/team3.jpg" alt="" class="section">
+                <p><b>Mike Ross</b></p>
+                <h2>Architect</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est nemo laboriosam deserunt, iusto laudantium deleniti?</p>
+            </div>
+            <div>
+                <img src="https://www.w3schools.com/w3images/team4.jpg" alt="" class="section">
+                <p><b>Dan Star</b></p>
+                <h2>Architect</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid culpa beatae enim? Aperiam, hic quas.</p>
+            </div>
+            
+        </div>
+    </div>
+    <h2>CONTACT</h3>
+    <h3>Lets get in touch and talk about your next project.</h2>
+    <div class="forms">
+    <form>
+        <input type="Name" placeholder="Name"><br>
+        <input type="Email" placeholder="Email"><br>
+        <input type="Subject" placeholder="Subject"><br>
+        <input type="Comment" placeholder="Comment"><br>
+        <button>SEND MESSAGE</button>
+    </form>
+    </div>
+    <div>
+        <img src="https://www.w3schools.com/w3images/map.jpg" alt="">
+    </div>
+</body>
+</html>
